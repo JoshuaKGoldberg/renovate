@@ -104,7 +104,7 @@ To run your own instance of Renovate you have several options:
 
 - Install the `renovate` CLI tool from npmjs, run it on a schedule (e.g. using `cron`)
 - Run the `renovate/renovate` Docker Hub image (same content/versions as the CLI tool), run it on a schedule
-- Run the `renovate/renovate:slim` Docker Hub image if you only use package managers that don't need third-party binaries (e.g. JavaScript, Docker, NuGet, pip)
+- Run the `renovate/renovate:latest` Docker Hub image if you only use package managers that don't need third-party binaries (e.g. JavaScript, Docker, NuGet, pip)
 
 [More details on the self-hosting development](https://github.com/renovatebot/renovate/blob/main/docs/usage/getting-started/running.md).
 
